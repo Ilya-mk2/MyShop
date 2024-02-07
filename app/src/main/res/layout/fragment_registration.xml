@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:gravity="center_horizontal"
+    tools:context=".registration.presentation.RegistrationFragment">
+
+    <TextView
+        android:id="@+id/registration_tView"
+        android:layout_width="37dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textview_background"
+        android:text="@string/registration"
+         />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstName_editView_layout"
+        android:layout_gravity="center"
+        android:hint="@string/firstname"
+        android:layout_marginTop="150dp"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstName_editView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastName_editView_layout"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/lastname"
+        android:layout_gravity="center"
+        android:background="@drawable/textview_background"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastName_editView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="16sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phone_editView_layout"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:layout_gravity="center"
+        android:background="@drawable/textview_background"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_editView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="16sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:id="@+id/login_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/light_pink"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:id="@+id/requrement_tView"
+        android:layout_width="343px"
+        android:layout_height="51px"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="16px"
+        android:text="@string/requirement"
+        android:textSize="8sp"
+         />
+
+
+</LinearLayout>
