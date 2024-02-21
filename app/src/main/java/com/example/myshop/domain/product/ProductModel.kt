@@ -1,6 +1,7 @@
 package com.example.myshop.domain.product
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class ProductModel(
     @SerializedName("available") val available: Int,
@@ -13,4 +14,4 @@ data class ProductModel(
     @SerializedName("subtitle")val subtitle: String,
     @SerializedName("tags")val tags: List<String>,
     @SerializedName("title")val title: String
-)
+) : Serializable
