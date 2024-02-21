@@ -27,7 +27,7 @@ class ScrollFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        replaceFragment(Home_Fragment.newInstance())
 
         binding.bottomNav.setOnItemSelectedListener {
             when(it.itemId){

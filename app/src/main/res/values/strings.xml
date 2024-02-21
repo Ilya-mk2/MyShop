@@ -17,5 +17,7 @@
     <string name="input_firstname">Введите имя</string>
     <string name="input_lastname">Введите фамилию</string>
     <string name="input_phone">Введите номер телефона</string>
+    <string name="description">Описание</string>
+    <string name="hide">Скрыть</string>
 
 </resources>
