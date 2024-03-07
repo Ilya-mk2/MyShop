@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16sp"
     android:gravity="center_horizontal"
-    tools:context=".registration.presentation.RegistrationFragment">
+    tools:context=".registration.registration.RegistrationFragment">
 
     <TextView
         android:id="@+id/registration_tView"
@@ -68,7 +68,7 @@
             android:id="@+id/phone_editView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:inputType="phone"
             android:textSize="16sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 

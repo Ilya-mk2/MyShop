@@ -2,11 +2,7 @@ package com.example.myshop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import com.example.myshop.registration.presentation.RegistrationFragment
-import com.google.gson.Gson
+import com.example.myshop.registration.registration.RegistrationFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

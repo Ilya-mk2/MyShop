@@ -1,4 +1,4 @@
-package com.example.myshop.registration.presentation
+package com.example.myshop.detail
 
 import androidx.lifecycle.ViewModel
 

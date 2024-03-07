@@ -1,7 +1,5 @@
 package com.example.myshop.registration.presentation
 
-import android.app.Activity
-import android.content.Intent
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,20 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.LayoutManager
-import androidx.recyclerview.widget.RecyclerView.RecyclerListener
 import com.example.myshop.ProductsAdapter
 import com.example.myshop.R
 import com.example.myshop.databinding.FragmentCatalogueBinding
+import com.example.myshop.detail.ProductFragment
 import com.example.myshop.domain.product.CatalogueResponse
-import com.example.myshop.domain.product.ProductModel
 import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import java.io.BufferedReader
 import java.io.InputStreamReader
-import java.lang.reflect.Type
 
 private const val TAG = "tag"
 class CatalogueFragment : Fragment() {
